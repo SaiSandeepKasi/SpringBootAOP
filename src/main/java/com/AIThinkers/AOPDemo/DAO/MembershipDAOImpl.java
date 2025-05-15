@@ -10,4 +10,9 @@ public class MembershipDAOImpl implements MembershipDAO{
 
         return true;
     }
+
+    @Override
+    public void beActive() {
+        System.out.println(getClass()+": Be Active Don't go to sleep");
+    }
 }
